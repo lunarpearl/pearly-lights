@@ -1,3 +1,47 @@
-theme: minima
-title: Meru's cabinet of curiosities
-description: Welcome to my professional and recreational blog!
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "air"
+repository: lunarpearl/pearly-lights
+github: [metadata]
+title: "Meru's Cabinet of Curiosities"
+name: "Meru Nurberdikhanova"
+url: "https://lunarpearl.github.io"
+baseurl: "/pearly-lights/"
+atom_feed:
+  hide: true
+author:
+  name: "Meru Nurberdikhanova"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "NLP specialist, linguistics & statistics enthusiast, and fantastical hobbyist."
+  location: "Rotterdam/Utrecht, NL"
+  links:
+    - label: "Email"
+      icon: "far fa-envelope"
+      url: "mailto:nurberdikhanova.aktau@gmail.com"
+    - label: "Website"
+      icon: "fas fa-feather-alt"
+      url: "https://lunarpearl.github.io/pearly-lights/"
+    - label: "Linkedin"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/meruyert-nurberdikhanova-020281237/"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/lunarpearl"
+    - label: "Goodreads"
+      icon: "fab fa-goodreads-g"
+      url: "https://www.goodreads.com/user/show/110571231-remu"
+    - label: "Instagram"
+      icon: "fab fa-instagram"
+      url: "https://www.instagram.com/messr.moon/"
+    - label: "Pinterest"
+      icon: "fab fa-pinterest"
+      url: "https://nl.pinterest.com/messxmoon/"
+plugins:
+  - gemfile
+  - jekyll-include-cache
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      author_profile: true

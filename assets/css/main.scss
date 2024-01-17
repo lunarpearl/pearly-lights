@@ -1,0 +1,15 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+$background-color: #E6E6FA;
+$footer-background-color: #556B2F;
+$text-color: #35431d;
+$muted-text-color: #505c3b;
+$primary-color: #35431d;
+$border-color: #556B2F;
+$link-color: #35431d;
+$masthead-link-color: $text-color;
+$masthead-link-color-hover: $text-color;
+
+@import "minimal-mistakes";
