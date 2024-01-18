@@ -5,7 +5,7 @@ github: [metadata]
 title: "Meru's Cabinet of Curiosities"
 name: "Meru Nurberdikhanova"
 url: "https://lunarpearl.github.io"
-baseurl: "/pearly-lights/"
+baseurl: "/pearly-lights"
 atom_feed:
   hide: true
 author:
